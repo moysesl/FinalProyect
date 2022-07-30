@@ -1,0 +1,204 @@
+body {
+    font-family: sans-serif, Arial, Verdana;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    background-color: lightsteelblue;
+}
+
+/* Global */
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button_1{
+    height: 38px;
+    background: orange;
+    border: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: black;
+    
+}
+/* Header */
+
+header{
+    background: darkgray;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: orange 3px solid;   
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header a:hover{
+    color:skyblue;
+    font-weight: bold;
+}
+
+header .highlight, header .current a{
+    color: darkred;
+    font-weight: bold;
+}
+
+/* Welcome */
+
+#Welcome{
+    min-height: 400px;
+    width: 100%;
+    background: url('LGCN3png.png') no-repeat 100px -300px;
+    text-align: center;
+    color: darkred;
+    font-size: 40px;
+}
+
+#Welcome h1{
+    margin-top: 100px;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+#Welcome p{
+    font-size: 40px;
+}
+
+#Welcome img{
+    align-self: center;
+    width: 100%;
+}
+
+/* Women Ministry */
+
+#Women{
+    padding: 15px;
+}
+
+/* Men */
+
+#Men{
+    padding: 15px;
+}
+
+/* Youth */
+
+#Youth{
+    padding: 15px;
+}
+
+/* Children*/
+
+#Children{
+    padding: 15px;
+}
+
+/* Newsletter */
+
+#Newsletter{
+    padding: 15px;
+    color:white;
+    background: grey;
+}
+
+#Newsletter h1{
+    float: left;
+}
+
+#Newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+#Newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/* Boxes */
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;  
+}
+
+#boxes .box img{
+    width: 200px;
+}
+
+/* Announcements */
+
+
+#announcements{
+    margin-top: 20px;
+}
+
+#announcements .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;  
+}
+
+#announcements .box img{
+    width: 200px;
+}
+
+
+/* Accordion */
+
+body > section2 {
+     grid-column: 1 / -1;
+    grid-row: 6;
+    padding: 5px;
+    background-color: burlywood;
+    color: black
+}
+
+/* Footer */
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #e8491d;
+    text-align: center;
+}
